@@ -1,0 +1,182 @@
+.roomMain {
+  position: relative;
+}
+
+.roomhero {
+  height: 60vh;
+  width: 100%;
+  object-fit: cover;
+}
+.roomherotext {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.roomText {
+  font-weight: bold;
+  font-size: 4rem;
+}
+.overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+}
+.roombtnana {
+  background-color: #128479 !important;
+  border-color: #128479 !important;
+  color: #ffffff !important;
+  transition: 0.2s !important;
+}
+.roombtnana:hover {
+  background-color: transparent !important;
+  color: #128479 !important;
+}
+.btnpos {
+  display: flex;
+  column-gap: 10px !important;
+}
+.roomimgpos {
+  height: 250px;
+  width: 100%;
+  position: relative;
+}
+.roomimg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.overlay6 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.overlaytext {
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 10%;
+}
+.roomcard {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.1) !important;
+  /* height: 500px !important; */
+}
+.roomdeslimit {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  color: black;
+}
+.roombtnbtn {
+  border: 1px solid #128479 !important;
+  background: #128479 !important;
+  border-radius: 0.3rem !important;
+}
+.roombtnbtn2 {
+  border-radius: 0.3rem !important;
+  background-color: transparent;
+}
+
+.roomBox1 {
+  width: 100%;
+  height: 450px;
+
+  position: relative;
+}
+.boxImg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.roomBox2 {
+  position: absolute;
+  height: 25%;
+  width: 20%;
+  background: #128479;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.roomBox3 {
+  position: absolute;
+  width: 30%;
+  height: 12%;
+  bottom: 0;
+  left: 0;
+  background: rgb(255, 255, 255);
+}
+.roomTextTop {
+  color: rgba(255, 255, 255, 0.425);
+  font-size: clamp(8px, 2vw, 0.8rem);
+  position: relative;
+}
+
+.roomTextTop::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.425);
+}
+.roomBook1 {
+  color: white;
+  text-decoration: none;
+  filter: drop-shadow(1px 1px 1px rgb(0, 0, 0));
+  cursor: pointer;
+}
+.roomGuestClamp {
+  font-size: clamp(10px, 2vw, 1rem);
+}
+.bookClamp {
+  font-size: clamp(15px, 2vw, 20px);
+  transition: 0.2s;
+}
+.bookClamp:hover {
+  color: #bbb9b9;
+}
+.cancel {
+  background: transparent;
+  border: 0;
+  color: rgba(255, 0, 0, 0.5);
+}
+.confirm {
+  background: #128479;
+  color: white;
+  border: 0;
+}
+.confirmLine {
+  position: relative;
+}
+.confirmLine::after {
+  position: absolute;
+  content: "";
+  background: rgba(0, 0, 0, 0.3);
+  height: 1px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+.bookprice {
+  color: rgba(255, 255, 255, 0.425);
+  font-size: clamp(8px, 2vw, 0.8rem);
+}
+.confirmBtn {
+  text-decoration: none;
+}

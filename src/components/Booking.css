@@ -1,0 +1,81 @@
+.test2 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 1;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: .5rem; */
+  padding: 0;
+}
+.p-inputtext {
+  height: 2rem;
+  font-size: 0.8rem;
+}
+.p-icon {
+  height: 12px;
+  width: 12px;
+}
+.p-dropdown-trigger {
+  width: 1.5rem;
+}
+.p-dropdown-label {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p-dropdown-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.p-dropdown-item-label {
+  font-size: 0.6rem;
+}
+
+.p-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #128479;
+}
+.colorses {
+  color: aliceblue;
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.8));
+}
+.bookbtn {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.containerHeight {
+  height: 100%;
+}
+.rowHeight {
+  width: 80%;
+  background: #128479;
+}
+.pi {
+  background-color: transparent;
+}
+.card {
+  background-color: transparent !important;
+  border: 0 !important;
+  color: white !important;
+}
+.icon {
+  font-size: clamp(2rem, 5vw, 4rem);
+  transition: 0.2s;
+}
+.icon:hover {
+  color: #0a6960c5;
+}

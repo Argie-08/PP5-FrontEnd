@@ -1,0 +1,37 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  background-color: #083a3541;
+  margin-top: 3rem;
+  position: fixed;
+  transition: 0.3s;
+}
+
+.header-bg {
+  background-color: #128479;
+  margin-top: 0;
+}
+.me-auto a {
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+}
+a:hover {
+  color: #011412 !important;
+}
+.logo {
+  height: 4.5rem;
+}
+.bg4 {
+  display: flex;
+  gap: 2rem;
+}
+.navbtn {
+  background-color: #128479 !important;
+  border-radius: 0.4rem;
+}
+.navbtn:hover {
+  background-color: #034942ab !important;
+}

@@ -1,0 +1,97 @@
+.hallbtn {
+  background-color: #128479 !important;
+  border: 0 !important;
+}
+.hallcard {
+  border-radius: 0 !important;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.halltext {
+  color: black !important;
+}
+.HallCardBody {
+  height: 100px;
+  position: relative;
+}
+.hallcard:hover {
+  background-color: #128479 !important;
+}
+.hallcard:hover .halltext {
+  color: white !important;
+}
+.imgbase {
+  height: 300px;
+  width: 100%;
+}
+.hallimg {
+  border-radius: 0 !important;
+  height: 100% !important;
+  width: 100%;
+  object-fit: cover;
+  position: relative !important;
+}
+.overlay4 {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0.1;
+  transition: 0.5s;
+}
+.overlay4:hover {
+  opacity: 1;
+}
+.hallRead {
+  z-index: 5;
+  text-decoration: none;
+  color: #128479 !important;
+}
+.hallRead:hover {
+  text-decoration: underline;
+}
+.modalImage {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+.modalBack {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.modalLine {
+  position: relative;
+}
+.modalLine::after {
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.2);
+  height: 1px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+.priceBox {
+  width: 100%;
+  height: 80px;
+  background: rgba(0, 0, 0, 0.8);
+}
+.priceText {
+  color: white;
+}
+.startDate {
+  width: 100%;
+}
+.BookNowBtn {
+  background: transparent;
+  color: #b6030394;
+  font-size: 0.8rem;
+  border: 0;
+}
+.bookLine {
+  text-decoration: none;
+}
+.p-dialog-header-icon {
+  visibility: hidden;
+}

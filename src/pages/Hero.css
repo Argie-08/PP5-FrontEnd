@@ -1,0 +1,44 @@
+.img {
+  width: 100%;
+}
+
+.bg3 {
+  position: relative;
+  z-index: -1;
+  height: 60vh;
+  object-fit: cover;
+  width: 100%;
+}
+.bg5 {
+  width: 100%;
+  margin-bottom: 10rem;
+}
+.bg5 h3 {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 2rem;
+}
+.bg5 button {
+  display: flex;
+  justify-content: start;
+}
+.carousel-indicators button {
+  visibility: hidden;
+}
+
+.bg6 {
+  z-index: 21;
+  cursor: pointer;
+}
+.btn-outline-light:hover {
+  background-color: #128479 !important;
+  color: white !important;
+  border-color: #128479 !important;
+  box-shadow: 0 2px 0 0 #0c5750;
+  transition: ease-in 0.2s;
+}
+.bodyBg {
+  width: 100%;
+  height: 100px;
+  background: #0c5750;
+}

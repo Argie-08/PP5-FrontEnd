@@ -1,0 +1,23 @@
+.line3 {
+  background: #128479;
+}
+.line4 {
+  border-bottom: solid 1px black;
+}
+.paymentFontColor {
+  color: #128479 !important;
+}
+.paymentFontWeight {
+  font-weight: bold;
+}
+.paymentInputSize {
+  width: 100%;
+}
+.paymentImg {
+  height: 50px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+.paymentButton {
+  border-radius: 0.3rem;
+}

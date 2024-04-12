@@ -1,0 +1,43 @@
+.bookhead {
+  height: 180px;
+  width: 100%;
+}
+.pi-circle {
+  color: #128479;
+}
+.line1 {
+  width: 500px;
+  height: 5px;
+  background: #128479;
+}
+.line2 {
+  width: 500px;
+  height: 5px;
+  background: #1284793b;
+}
+
+.reservationImage {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+}
+.p-card-content {
+  padding: 0;
+}
+.reservationPrice {
+  height: 50px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.reservationBtn {
+  font-size: 0.8rem;
+  height: 50px;
+}
+.reservationBtn2 {
+  text-decoration: none;
+}
+.reservationGuestText {
+  font-size: 0.8rem;
+}
+.reservationBtnText {
+  height: 50px !important;
+}
